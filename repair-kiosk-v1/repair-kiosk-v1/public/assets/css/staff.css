@@ -1,0 +1,32 @@
+* { box-sizing: border-box; }
+body { margin:0; font-family: -apple-system, Segoe UI, Roboto, sans-serif; background:#f8fafc; color:#0f172a; }
+.staff-nav { background:#1e293b; padding:16px 32px; display:flex; gap:24px; align-items:center; }
+.staff-nav a { color:#cbd5e1; text-decoration:none; }
+.staff-nav-user { margin-left:auto; color:#94a3b8; font-size:14px; }
+.link-button { background:none; border:none; color:#93c5fd; cursor:pointer; text-decoration:underline; padding:0; font-size:14px; }
+.staff-main { max-width:1000px; margin:0 auto; padding:32px; }
+.login-box { max-width:360px; margin:80px auto; background:#fff; padding:40px; border-radius:12px; box-shadow:0 4px 24px rgba(0,0,0,.08); }
+.login-box label { display:block; margin-top:16px; font-size:14px; color:#475569; }
+.login-box input { width:100%; padding:10px; margin-top:6px; border:1px solid #cbd5e1; border-radius:6px; }
+.btn-primary { margin-top:24px; background:#2563eb; color:#fff; border:none; padding:12px 20px; border-radius:8px; cursor:pointer; font-size:16px; width:100%; }
+.dash-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:16px; margin:24px 0; }
+.dash-card { background:#fff; border-radius:10px; padding:20px; border-left:5px solid #94a3b8; }
+.dash-gray { border-color:#94a3b8; } .dash-blue { border-color:#2563eb; }
+.dash-amber { border-color:#d97706; } .dash-green { border-color:#16a34a; } .dash-red { border-color:#dc2626; }
+.dash-count { font-size:32px; font-weight:700; }
+.dash-label { color:#64748b; font-size:14px; }
+.staff-table, .detail-table { width:100%; border-collapse:collapse; background:#fff; }
+.staff-table th, .staff-table td, .detail-table th, .detail-table td { padding:12px; border-bottom:1px solid #e2e8f0; text-align:left; }
+.detail-table th { width:160px; color:#64748b; }
+.muted { color:#94a3b8; font-size:13px; }
+.badge { display:inline-block; padding:4px 10px; border-radius:999px; font-size:12px; font-weight:600; }
+.badge-gray { background:#e2e8f0; color:#334155; }
+.badge-blue { background:#dbeafe; color:#1e40af; }
+.badge-amber { background:#fef3c7; color:#92400e; }
+.badge-green { background:#dcfce7; color:#166534; }
+.badge-red { background:#fee2e2; color:#991b1b; }
+.history-list { list-style:none; padding:0; }
+.history-list li { padding:8px 0; border-bottom:1px solid #e2e8f0; font-size:14px; }
+.flash { padding:14px; border-radius:8px; margin-bottom:16px; font-weight:600; }
+.flash-error { background:#fee2e2; color:#991b1b; }
+.flash-success { background:#dcfce7; color:#166534; }

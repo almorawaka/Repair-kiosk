@@ -1,0 +1,17 @@
+/vendor/
+/node_modules/
+.env
+storage/uploads/*
+!storage/uploads/.gitkeep
+storage/qrcodes/*
+!storage/qrcodes/.gitkeep
+storage/logs/*
+!storage/logs/.gitkeep
+storage/cache/*
+!storage/cache/.gitkeep
+storage/backups/*
+!storage/backups/.gitkeep
+.DS_Store
+Thumbs.db
+.idea/
+*.log

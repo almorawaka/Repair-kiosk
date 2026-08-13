@@ -1,0 +1,2 @@
+# Nothing above public/ should ever be reachable by URL
+Require all denied
