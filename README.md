@@ -16,6 +16,12 @@ Built with plain PHP (no framework), MySQL, and vanilla JS — designed to run o
 
 Try the full loop: drop off a test item at the kiosk (any asset tag, e.g. `AST-000001`), note the QR code on the confirmation screen, then log into the staff panel to move it through the repair stages, and scan the QR again once it's marked ready for collection.
 
+## Screenshots
+
+**Kiosk home screen**
+
+![Kiosk home screen](docs/screenshots/kiosk-home.png)
+
 ## Features
 
 - **Kiosk drop-off wizard** — scan asset tag → identify borrower → describe fault → confirm → printable QR slip
