@@ -20,7 +20,7 @@ Try the full loop: drop off a test item at the kiosk (any asset tag, e.g. `AST-0
 
 **Kiosk home screen**
 
-![Kiosk home screen](docs/screenshots/kiosk-home.png)
+![Kiosk home screen](docs/kiosk-home.png)
 
 ## Features
 
